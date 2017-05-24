@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shopify JS API test</title>
+
+<link rel="stylesheet" type="text/css" href="boostrap.min.css" />
+<link rel="stylesheet" type="text/css" href="hsmShopify.css" />
+
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+<script type="text/javascript" src="shopify-buy.umd.polyfilled.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+</head>
+<body>
+
+<div id="products">
+	<!-- Content scripted in index.js -->
+</div>
+
+<div id="shopping-cart">
+	<table id="line-items">
+	<thead>
+		<tr><th>Product name</th><th>Variant</th><th>Price</th><th>Quantity</th></tr>
+	</thead>
+	<tfoot>
+		<tr><td rowspan="4">Subtotal: <span id="subtotal"><!-- Scripted --></span></td></tr>
+	</tfoot>
+	<tbody>
+		<!-- Scripted in index.js -->
+	</tbody>
+	</table>
+
+	<button id="checkout" class="product-buy">Checkout</button>
+
+	<p id="cart-debug"></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.product {
+  max-width: 400px;
+  box-shadow: 0 0 15px 5px #eee;
+  padding: 30px;
+}
+
+.product-buy {
+  background: #7ab55c;
+  padding: 0.5625em 1.875em;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.product-buy:hover {
+  text-decoration: none;
+  background: #6aa74c;
+}
+
+.product-image {
+  width: 400px;
+}
+
+.variants, .variant-price {
+	padding: 5px 0px;
+}
+
+#shopping-cart {
+	padding: 10px;
+	margin: 10px;
+	border: solid black 1px;
+}
